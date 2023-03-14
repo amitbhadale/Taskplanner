@@ -1,0 +1,46 @@
+.task{
+    background: #333;
+    padding: 6px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    border-right: 4px solid;
+    
+    .head{
+        margin-bottom: 8px;
+        h5{
+            font-size: 13px;
+            color: #ebebeb;
+        }
+    }
+    .body, .base{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0px;
+        align-items: center;
+        p{
+            font-size: 13px;
+            color: #d1cecef2;
+        }
+        .ico{
+            color: #1a1919;;
+            font-size: 110%;
+            cursor: pointer;
+            transition: all 0.2s linear;
+            &:hover{
+                color: #d1cecef2;
+            }
+        }
+        .dlt{
+            &:hover{
+                color: red;
+            }
+        }
+        .move{
+            display: flex;
+            width: 20%;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
+
+}

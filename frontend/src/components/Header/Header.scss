@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px 0px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    ul{
+        width: 20%;
+        li{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+            a{
+                text-decoration: none;
+                color: #fff;
+            }
+        }
+    }
+    .add-col{
+        width: 25%;
+        input{
+            padding: 2px;
+            margin-right: 5px;
+        }
+        button{
+            padding: 2px;
+            width: 19%;
+        }
+    }
+}
